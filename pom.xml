@@ -22,6 +22,11 @@
             <artifactId>testng</artifactId>
             <version>6.9.10</version>
         </dependency>
+        <dependency>
+            <groupId>com.ozerian.app</groupId>
+            <artifactId>calculator-lib</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
 </project>
