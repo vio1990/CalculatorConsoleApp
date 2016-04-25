@@ -26,8 +26,10 @@
         </dependency>
         <dependency>
             <groupId>com.ozerian.java.app</groupId>
-            <artifactId>calculatorlib</artifactId>
-            <version>1.0</version>
+            <artifactId>calculator-library-1.1</artifactId>
+            <version>1.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.1.jar</systemPath>
         </dependency>
     </dependencies>
 
