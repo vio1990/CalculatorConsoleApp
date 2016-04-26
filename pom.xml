@@ -36,7 +36,7 @@
             <artifactId>calculator-library-1.4</artifactId>
             <version>1.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.4.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.4.jar</systemPath>
         </dependency>
     </dependencies>
 
