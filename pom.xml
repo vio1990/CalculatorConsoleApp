@@ -12,6 +12,13 @@
     <build>
         <plugins>
             <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
             </plugin>
         </plugins>
@@ -29,7 +36,7 @@
             <artifactId>calculator-library-1.1</artifactId>
             <version>1.1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.1.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.2.jar</systemPath>
         </dependency>
     </dependencies>
 
