@@ -33,10 +33,10 @@
         </dependency>
         <dependency>
             <groupId>com.ozerian.java.app</groupId>
-            <artifactId>calculator-library-1.3</artifactId>
-            <version>1.3</version>
+            <artifactId>calculator-library-1.4</artifactId>
+            <version>1.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.3.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/calculator-library-1.4.jar</systemPath>
         </dependency>
     </dependencies>
 
