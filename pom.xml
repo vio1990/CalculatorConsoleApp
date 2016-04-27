@@ -38,6 +38,11 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.4.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.5.RELEASE</version>
+        </dependency>
     </dependencies>
 
 </project>
