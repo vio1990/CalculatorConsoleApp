@@ -54,8 +54,6 @@ public class Bootstrap {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         Bootstrap bootstrap = applicationContext.getBean("bootstrap", Bootstrap.class);
         bootstrap.execute();
-        bootstrap.execute();
-        bootstrap.execute();
 
     }
 }
