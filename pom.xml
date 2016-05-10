@@ -51,10 +51,10 @@
         </dependency>
         <dependency>
             <groupId>com.ozerian.java.app</groupId>
-            <artifactId>calculator-library-1.4</artifactId>
+            <artifactId>calculator-library-1.5</artifactId>
             <version>1.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.4.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.5.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
