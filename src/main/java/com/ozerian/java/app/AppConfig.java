@@ -1,6 +1,5 @@
 package com.ozerian.java.app;
 
-import com.ozerian.java.app.Bootstrap;
 import com.ozerian.java.app.optional_math_operations.NumberDivision;
 import com.ozerian.java.app.optional_math_operations.NumberMultiplication;
 import com.ozerian.java.app.util.InputDataReader;
@@ -44,11 +43,11 @@ public class AppConfig {
 
     @Bean
     public NumberDivision divide() {
-        return new NumberDivision(calculator().getParser(),calculator().getSupportedOperation());
+        return new NumberDivision(calculator().getParser());
     }
 
     @Bean
     public NumberMultiplication multiply() {
-        return new NumberMultiplication(calculator().getParser(), calculator().getSupportedOperation());
+        return new NumberMultiplication(calculator().getParser());
     }
 }

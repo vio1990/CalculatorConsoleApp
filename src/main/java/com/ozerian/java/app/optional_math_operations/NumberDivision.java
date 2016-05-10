@@ -1,121 +1,117 @@
 package com.ozerian.java.app.optional_math_operations;
 
-import com.ozerian.java.app.interfaces.Division;
-import com.ozerian.lib.calculator.exceptions.IncorrectInputDataException;
-import com.ozerian.lib.calculator.util.DataParser;
-import com.ozerian.lib.calculator.util.OperationFactory;
+import com.ozerian.lib.calculator.interfaces.CalculatorOperation;
+import com.ozerian.lib.calculator.util.OperationRegister;
+import com.ozerian.lib.calculator.util.Parser;
 
 /**
  * Class for division number's data types.
  */
-public final class NumberDivision implements Division {
+public final class NumberDivision implements CalculatorOperation {
 
-    public static final int INDEX_OF_FIRST_NUMBER = 0;
-    public static final int INDEX_OF_SECOND_NUMBER = 1;
-    private DataParser parser;
-    private OperationFactory operationFactory;
+    private Parser parser;
     private StringBuilder operationResult = new StringBuilder();
 
     /**
-     * Creation new object with parser and operationFactory.
+     * Creation new object with parser and operationRegister.
      *
-     * @param parser           DataParser for checking data type.
-     * @param operationFactory OperationFactory for checking supported operations.
+     * @param parser DataParser for checking data type.
      */
-    public NumberDivision(DataParser parser, OperationFactory operationFactory) {
+    public NumberDivision(Parser parser) {
         this.parser = parser;
-        this.operationFactory = operationFactory;
-        operationFactory.addOperation("/", this);
+        addOperationToRegister("/");
     }
 
     /**
      * Checking data type and division after definition.
-     *
-     * @throws IncorrectInputDataException Throws when there are problems with input data after some methods
-     *                                     and operations.
      */
-    @Override
-    public void divide() throws IncorrectInputDataException {
+
+    public void divide(String firstOperand, String secondOperand) {
+
         if ("int".equals(parser.getNumberType())) {
-            int firstNumber = Integer.parseInt(parser.getStringNumbers().get(INDEX_OF_FIRST_NUMBER));
-            int secondNumber = Integer.parseInt(parser.getStringNumbers().get(INDEX_OF_SECOND_NUMBER));
+            int firstNumber = Integer.parseInt(firstOperand);
+            int secondNumber = Integer.parseInt(secondOperand);
             divideInt(firstNumber, secondNumber);
         } else if ("long".equals(parser.getNumberType())) {
-            long firstNumber = Long.parseLong(parser.getStringNumbers().get(INDEX_OF_FIRST_NUMBER));
-            long secondNumber = Long.parseLong(parser.getStringNumbers().get(INDEX_OF_SECOND_NUMBER));
+            long firstNumber = Long.parseLong(firstOperand);
+            long secondNumber = Long.parseLong(secondOperand);
             divideLong(firstNumber, secondNumber);
         } else if ("double".equals(parser.getNumberType())) {
-            double firstNumber = Double.parseDouble(parser.getStringNumbers().get(INDEX_OF_FIRST_NUMBER));
-            double secondNumber = Double.parseDouble(parser.getStringNumbers().get(INDEX_OF_SECOND_NUMBER));
+            double firstNumber = Double.parseDouble(firstOperand);
+            double secondNumber = Double.parseDouble(secondOperand);
             divideDouble(firstNumber, secondNumber);
         } else if ("float".equals(parser.getNumberType())) {
-            float firstNumber = Float.parseFloat(parser.getStringNumbers().get(INDEX_OF_FIRST_NUMBER));
-            float secondNumber = Float.parseFloat(parser.getStringNumbers().get(INDEX_OF_SECOND_NUMBER));
+            float firstNumber = Float.parseFloat(firstOperand);
+            float secondNumber = Float.parseFloat(secondOperand);
             divideFloat(firstNumber, secondNumber);
         } else {
-            throw new IncorrectInputDataException("Impossible parsing!");
+            throw new UnsupportedOperationException("Not supported data type!");
         }
     }
 
     /**
-     * Divide operation for int data type.
+     * Division operation for int data type.
      *
-     * @param firstNumber  int first divider.
-     * @param secondNumber int second divider.
+     * @param firstNumber  int first operand.
+     * @param secondNumber int second operand.
      */
     public void divideInt(int firstNumber, int secondNumber) {
         int result = firstNumber / secondNumber;
         String textResult = firstNumber + "/" + secondNumber + "=" + result;
+        operationResult = new StringBuilder();
         operationResult.append(textResult);
     }
 
     /**
-     * Divide operation for long data type.
+     * Division operation for long data type.
      *
-     * @param firstNumber  long first divider.
-     * @param secondNumber long second divider.
+     * @param firstNumber  long first operand.
+     * @param secondNumber long second operand.
      */
     public void divideLong(long firstNumber, long secondNumber) {
         long result = firstNumber / secondNumber;
         String textResult = firstNumber + "/" + secondNumber + "=" + result;
+        operationResult = new StringBuilder();
         operationResult.append(textResult);
     }
 
     /**
-     * Divide operation for float data type.
+     * Division operation for float data type.
      *
-     * @param firstNumber  float first divider.
-     * @param secondNumber float second divider.
+     * @param firstNumber  float first operand.
+     * @param secondNumber float second operand.
      */
     public void divideFloat(float firstNumber, float secondNumber) {
         float result = firstNumber / secondNumber;
         String textResult = firstNumber + "/" + secondNumber + "=" + result;
+        operationResult = new StringBuilder();
         operationResult.append(textResult);
-
     }
 
     /**
-     * Divide operation for double data type.
+     * Division operation for double data type.
      *
-     * @param firstNumber  double first divider.
-     * @param secondNumber double second divider.
+     * @param firstNumber  double first operand.
+     * @param secondNumber double second operand.
      */
     public void divideDouble(double firstNumber, double secondNumber) {
         double result = firstNumber / secondNumber;
         String textResult = firstNumber + "/" + secondNumber + "=" + result;
+        operationResult = new StringBuilder();
         operationResult.append(textResult);
-
     }
 
     /**
-     * Override method for execution add operation.
-     *
-     * @throws IncorrectInputDataException Throws when there are problems with input data after some methods
-     *                                     and operations.
+     * Override method for execution divide operation.
      */
     @Override
-    public void calculate() throws IncorrectInputDataException {
-        this.divide();
+    public void calculate(String firstNumber, String secondNumber) {
+        this.divide(firstNumber, secondNumber);
+    }
+
+    @Override
+    public void addOperationToRegister(String operationSymbol) {
+        OperationRegister.addOperation(operationSymbol, this);
     }
 
     /**
