@@ -49,11 +49,9 @@
             <version>6.9.10</version>
         </dependency>
         <dependency>
-            <groupId>com.ozerian.java.app</groupId>
-            <artifactId>calculator-library-1.5</artifactId>
-            <version>1.4</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.5.jar</systemPath>
+            <groupId>com.ozerian.calclib</groupId>
+            <artifactId>calculator-library</artifactId>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
