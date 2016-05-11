@@ -9,6 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
+/**
+ * This class was created for possibility to configure spring container with Java-based configuration type.
+ */
 @Configuration
 public class AppConfig {
 
@@ -16,7 +19,7 @@ public class AppConfig {
     public Bootstrap bootstrap(Calculator calculator, InputDataReader reader) {
         Bootstrap bootstrap = new Bootstrap();
         bootstrap.setCalculator(calculator);
-        bootstrap.setReader(reader);
+      /*  bootstrap.setReader(reader);*/
         return bootstrap;
     }
 

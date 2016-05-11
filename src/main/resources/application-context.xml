@@ -4,6 +4,23 @@
        xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <!-- <bean/> definitions here -->
-    <bean id="bootstrap" class="com.ozerian.java.app.Bootstrap"/>
+    <bean id="bootstrap" class="com.ozerian.java.app.Bootstrap">
+        <property name="calculator" ref="calculator"/>
+        <property name="multiplication" ref="multiply"/>
+        <property name="division" ref="divide"/>
+        <property name="readerFactory" ref="readerFactory"/>
+    </bean>
+
+    <bean id="calculator" class="com.ozerian.lib.calculator.model.Calculator"/>
+    <bean id="reader" class="com.ozerian.java.app.util.InputDataReader" scope="prototype"/>
+    <bean id="divide" class="com.ozerian.java.app.optional_math_operations.NumberDivision">
+        <constructor-arg value="#{calculator.getParser()}"/>
+    </bean>
+    <bean id="multiply" class="com.ozerian.java.app.optional_math_operations.NumberMultiplication">
+        <constructor-arg value="#{calculator.getParser()}"/>
+    </bean>
+    <bean id="readerFactory" class="com.ozerian.java.app.util.InputDataReaderFactory">
+        <lookup-method name="getInputDataReader" bean="reader"/>
+    </bean>
+
 </beans>
