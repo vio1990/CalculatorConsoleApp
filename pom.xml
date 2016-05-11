@@ -8,7 +8,6 @@
     <artifactId>calculator-app</artifactId>
     <version>1.0</version>
 
-
     <build>
         <plugins>
             <plugin>
@@ -23,7 +22,6 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClasspath>true</addClasspath>
                             <mainClass>com.ozerian.java.app.Bootstrap</mainClass>
                         </manifest>
                     </archive>
@@ -55,8 +53,7 @@
             <artifactId>calculator-library-1.5</artifactId>
             <version>1.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/libraries/calculator-library-1.5.jar
-            </systemPath>
+            <systemPath>${project.basedir}/src/main/java/com/ozerian/java/app/lib/calculator-library-1.5.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
