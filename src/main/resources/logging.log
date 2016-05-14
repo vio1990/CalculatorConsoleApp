@@ -3,3 +3,51 @@
 2016-05-14 19:49:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
 2016-05-14 19:49:07 INFO  LogAspect:13 - Method execute is running
 2016-05-14 19:49:16 INFO  LogAspect:15 - Method execute stop working
+2016-05-14 19:54:41 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 19:54:41 EEST 2016]; root of context hierarchy
+2016-05-14 19:54:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 19:54:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 19:58:01 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 19:58:01 EEST 2016]; root of context hierarchy
+2016-05-14 19:58:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 19:58:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 19:58:04 INFO  LogAspect:13 - Method execute is running
+2016-05-14 19:58:07 INFO  LogAspect:15 - Method execute stop working
+2016-05-14 20:02:48 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:02:48 EEST 2016]; root of context hierarchy
+2016-05-14 20:02:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:02:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:08:54 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:08:54 EEST 2016]; root of context hierarchy
+2016-05-14 20:08:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:08:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:08:57 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:09:00 INFO  LogAspect:15 - Method execute stop working
+2016-05-14 20:10:17 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:10:17 EEST 2016]; root of context hierarchy
+2016-05-14 20:10:17 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:10:19 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:15:11 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:15:11 EEST 2016]; root of context hierarchy
+2016-05-14 20:15:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:15:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:15:14 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:15:19 INFO  LogAspect:15 - Method execute stop working
+2016-05-14 20:15:24 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:15:24 EEST 2016]; root of context hierarchy
+2016-05-14 20:15:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:15:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:15:28 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:17:07 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:17:07 EEST 2016]; root of context hierarchy
+2016-05-14 20:17:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:17:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:20:28 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:20:28 EEST 2016]; root of context hierarchy
+2016-05-14 20:20:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:20:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:20:30 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:20:33 ERROR LogAspect:15 - trtata
+2016-05-14 20:20:33 INFO  LogAspect:16 - Method execute stop working
+2016-05-14 20:22:08 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:22:08 EEST 2016]; root of context hierarchy
+2016-05-14 20:22:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:22:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:22:11 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:22:14 INFO  LogAspect:20 - Method execute stop working
+2016-05-14 20:22:20 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:22:20 EEST 2016]; root of context hierarchy
+2016-05-14 20:22:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-14 20:22:21 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-14 20:22:23 INFO  LogAspect:13 - Method execute is running
+2016-05-14 20:22:26 ERROR LogAspect:18 - ERROR! Wrong input data!
+2016-05-14 20:22:26 INFO  LogAspect:20 - Method execute stop working

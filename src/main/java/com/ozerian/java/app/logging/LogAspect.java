@@ -8,10 +8,16 @@ public class LogAspect {
 
     private static final Logger logger = Logger.getLogger(LogAspect.class);
 
-    public Object methodsLog(ProceedingJoinPoint pjp) throws Throwable {
+    public Object methodsLog(ProceedingJoinPoint pjp) {
         PropertyConfigurator.configure("D:\\GoJavaOnlineHomeworks\\CalculatorApp\\src\\main\\resources\\log4j.properties");
         logger.info("Method " + pjp.getSignature().getName() + " is running");
-        Object result = pjp.proceed();
+        Object result = null;
+        try {
+            result = pjp.proceed();
+            logger.info("Correct input data!");
+        } catch (Throwable throwable) {
+            logger.error("ERROR! Wrong input data!");
+        }
         logger.info("Method " + pjp.getSignature().getName() + " stop working");
         return result;
     }
