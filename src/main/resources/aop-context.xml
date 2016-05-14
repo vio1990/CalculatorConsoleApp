@@ -10,7 +10,7 @@ http://www.springframework.org/schema/aop http://www.springframework.org/schema/
 <bean id="logAspect" class="com.ozerian.java.app.logging.LogAspect"/>
 
     <aop:config>
-        <aop:pointcut id="logExecute" expression="execution( * com.ozerian.java.app.Bootstrap.*(..))"/>
+        <aop:pointcut id="logExecute" expression=" bean(bootstrap) "/>
 
         <aop:aspect ref="logAspect">
             <aop:around pointcut-ref="logExecute" method="methodsLog"/>
