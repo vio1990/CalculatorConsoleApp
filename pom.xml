@@ -49,9 +49,9 @@
             <version>6.9.10</version>
         </dependency>
         <dependency>
-            <groupId>com.ozerian.calclib</groupId>
+            <groupId>com.ozerian.lib</groupId>
             <artifactId>calculator-library</artifactId>
-            <version>1.0</version>
+            <version>1.6</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

@@ -1,53 +1,64 @@
-2016-05-14 19:49:05 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 19:49:05 EEST 2016]; root of context hierarchy
-2016-05-14 19:49:05 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 19:49:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 19:49:07 INFO  LogAspect:13 - Method execute is running
-2016-05-14 19:49:16 INFO  LogAspect:15 - Method execute stop working
-2016-05-14 19:54:41 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 19:54:41 EEST 2016]; root of context hierarchy
-2016-05-14 19:54:41 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 19:54:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 19:58:01 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 19:58:01 EEST 2016]; root of context hierarchy
-2016-05-14 19:58:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 19:58:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 19:58:04 INFO  LogAspect:13 - Method execute is running
-2016-05-14 19:58:07 INFO  LogAspect:15 - Method execute stop working
-2016-05-14 20:02:48 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:02:48 EEST 2016]; root of context hierarchy
-2016-05-14 20:02:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:02:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:08:54 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:08:54 EEST 2016]; root of context hierarchy
-2016-05-14 20:08:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:08:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:08:57 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:09:00 INFO  LogAspect:15 - Method execute stop working
-2016-05-14 20:10:17 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:10:17 EEST 2016]; root of context hierarchy
-2016-05-14 20:10:17 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:10:19 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:15:11 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:15:11 EEST 2016]; root of context hierarchy
-2016-05-14 20:15:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:15:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:15:14 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:15:19 INFO  LogAspect:15 - Method execute stop working
-2016-05-14 20:15:24 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:15:24 EEST 2016]; root of context hierarchy
-2016-05-14 20:15:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:15:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:15:28 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:17:07 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sat May 14 20:17:07 EEST 2016]; root of context hierarchy
-2016-05-14 20:17:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:17:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:20:28 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:20:28 EEST 2016]; root of context hierarchy
-2016-05-14 20:20:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:20:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:20:30 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:20:33 ERROR LogAspect:15 - trtata
-2016-05-14 20:20:33 INFO  LogAspect:16 - Method execute stop working
-2016-05-14 20:22:08 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:22:08 EEST 2016]; root of context hierarchy
-2016-05-14 20:22:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:22:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:22:11 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:22:14 INFO  LogAspect:20 - Method execute stop working
-2016-05-14 20:22:20 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sat May 14 20:22:20 EEST 2016]; root of context hierarchy
-2016-05-14 20:22:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
-2016-05-14 20:22:21 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
-2016-05-14 20:22:23 INFO  LogAspect:13 - Method execute is running
-2016-05-14 20:22:26 ERROR LogAspect:18 - ERROR! Wrong input data!
-2016-05-14 20:22:26 INFO  LogAspect:20 - Method execute stop working
+2016-05-15 14:40:56 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8102c8: startup date [Sun May 15 14:40:56 EEST 2016]; root of context hierarchy
+2016-05-15 14:40:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-15 14:40:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [aop-context.xml]
+2016-05-15 14:40:57 INFO  LogAspect:13 - Method <class com.ozerian.lib.calculator.model.Calculator>.<getParser> is running
+2016-05-15 14:40:58 INFO  LogAspect:20 - Method <class com.ozerian.lib.calculator.model.Calculator>.<getParser> stoped working
+2016-05-15 14:40:58 INFO  LogAspect:13 - Method <class com.ozerian.lib.calculator.model.Calculator>.<getParser> is running
+2016-05-15 14:40:58 INFO  LogAspect:20 - Method <class com.ozerian.lib.calculator.model.Calculator>.<getParser> stoped working
+2016-05-15 14:41:12 INFO  LogAspect:13 - Method <class com.ozerian.lib.calculator.model.Calculator>.<calculatorExecute> is running
+2016-05-15 14:41:12 INFO  LogAspect:20 - Method <class com.ozerian.lib.calculator.model.Calculator>.<calculatorExecute> stoped working
+2016-05-15 14:42:45 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e03bb5: startup date [Sun May 15 14:42:45 EEST 2016]; root of context hierarchy
+2016-05-15 14:42:46 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [application-context.xml]
+2016-05-15 14:43:02 WARN  XmlBeanDefinitionReader:48 - Ignored XML validation warning
+org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 107; schema_reference.4: Failed to read schema document 'http://www.springframework.org/schema/beans/spring-beans.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaWarning(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument1(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:252)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:510)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.ozerian.java.app.Bootstrap.main(Bootstrap.java:45)
+Caused by: java.io.IOException: Server returned HTTP response code: 522 for URL: http://www.springframework.org/schema/beans/spring-beans.xsd
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(Unknown Source)
+	... 35 more

@@ -10,15 +10,14 @@ public class LogAspect {
 
     public Object methodsLog(ProceedingJoinPoint pjp) {
         PropertyConfigurator.configure("D:\\GoJavaOnlineHomeworks\\CalculatorApp\\src\\main\\resources\\log4j.properties");
-        logger.info("Method " + pjp.getSignature().getName() + " is running");
+        logger.info("Method <" + pjp.getTarget().getClass() + ">.<" + pjp.getSignature().getName() + "> is running");
         Object result = null;
         try {
             result = pjp.proceed();
-            logger.info("Correct input data!");
         } catch (Throwable throwable) {
-            logger.error("ERROR! Wrong input data!");
+            logger.error("ERROR! In method <" + pjp.getTarget().getClass() + ">.<" + pjp.getSignature().getName() + ">");
         }
-        logger.info("Method " + pjp.getSignature().getName() + " stop working");
+        logger.info("Method <" + pjp.getTarget().getClass() + ">.<" + pjp.getSignature().getName() + "> stoped working");
         return result;
     }
 }
